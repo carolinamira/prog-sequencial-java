@@ -21,9 +21,9 @@ public class Decisao2 {
 		System.out.println("Digite o valor do terceiro inteiro: ");
 		num3 = ler.nextInt();
 		
-		if(num1 > num2 && num1 > num3) {
+		if(num1 >= num2 && num1 >= num3) {
 			c = num1;			
-			if(num2 > num3) {
+			if(num2 >= num3) {
 				b = num2;
 				a = num3;
 			}
@@ -32,9 +32,9 @@ public class Decisao2 {
 				a = num2;
 			}
 		
-		} else if(num2 > num1 && num2 > num3) {
+		} else if(num2 >= num1 && num2 >= num3) {
 			c = num2;
-			if(num1 > num3) {
+			if(num1 >= num3) {
 				b = num1;
 				a = num3;
 			}
@@ -44,7 +44,7 @@ public class Decisao2 {
 			}
 		} else {
 			c = num3;
-			if(num1 > num2) {
+			if(num1 >= num2) {
 				b = num1;
 				a = num2;				
 			} else {
