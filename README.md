@@ -1,2 +1,2 @@
 # prog-sequencial-java
-Sequential programming exercises - Introduction to Java.
+Sequential programming exercises - Introduction to Java. 
