@@ -7,14 +7,14 @@ import java.util.Scanner;
 
 public class Repeticao4 {
 	
-	//condição para sair do while:
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		int idade, genero, option, contador=0, cont1=0, cont2=0, cont3=0, cont4=0, cont5=0, cont6=0;
 		Scanner entrada = new Scanner(System.in);	
+		System.out.println("Sistema de classificação de pessoas. Caso queira sair, digite 9.");
 		
-		while(contador < 2) {
+		while(contador < 149) {
 			
 			System.out.println("Digite sua idade: ");
 			idade = entrada.nextInt();
@@ -53,6 +53,7 @@ public class Repeticao4 {
 			if(option == 1 && idade < 18) {
 				cont6++;
 			}
+			
 			contador++;
 		}
 		
